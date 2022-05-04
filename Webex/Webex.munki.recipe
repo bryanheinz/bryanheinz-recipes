@@ -3,16 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Cisco Webex and imports it into Munki.
-	
-	Modify the ARCHITECTURE variable to determine whether the Intel (x64) or Apple Silicon (arm64) version of Webex is downloaded.
-	
-	Modify the ARCH variable to tell Munki if this version of Webex is supported on Intel (x86_64) or Apple Silicon (arm64).
-	</string>
+	<string>Downloads the latest version of Cisco Webex and imports it into Munki.</string>
 	<key>Identifier</key>
 	<string>com.github.bryanheinz.munki.cisco-webex</string>
 	<key>Input</key>
 	<dict>
+		<key>comment</key>
+		<string>
+		Modify the ARCHITECTURE variable to determine whether the Intel (x64) or Apple Silicon (arm64) version of Webex is downloaded.
+		
+		Modify the ARCH variable to tell Munki if this version of Webex is supported on Intel (x86_64) or Apple Silicon (arm64).
+		</string>
 		<key>ARCHITECTURE</key>
 		<string>arm64</string>
 		<key>ARCH</key>
