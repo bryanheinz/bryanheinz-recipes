@@ -10,14 +10,21 @@
 	<dict>
 		<key>comment</key>
 		<string>
-		Modify the ARCHITECTURE variable to determine whether the Intel (x64) or Apple Silicon (arm64) version of Webex is downloaded.
+		Modify the ARCHITECTURE and DOWNLOAD_TYPE keys to determine whether the Intel (x64) or Apple Silicon (arm64) version of Webex is downloaded.
 		
-		Modify the ARCH variable to tell Munki if this version of Webex is supported on Intel (x86_64) or Apple Silicon (arm64).
+		ARCHITECTURE ARM    – arm64
+		ARCHITECTURE INTEL  – x64
+		DOWNLOAD_TYPE ARM   – WebexDesktop-MACOS-Apple-Silicon-Gold
+		DOWNLOAD_TYPE INTEL – WebexTeamsDesktop-MACOS-Gold
+		
+		Modify the ARCH variable to tell Munki if the version of Webex it's importing is supported on Intel (x86_64) or Apple Silicon (arm64).
 		</string>
-		<key>ARCHITECTURE</key>
-		<string>arm64</string>
 		<key>ARCH</key>
 		<string>arm64</string>
+		<key>ARCHITECTURE</key>
+		<string>arm64</string>
+		<key>DOWNLOAD_TYPE</key>
+		<string>WebexDesktop-MACOS-Apple-Silicon-Gold</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>conferencing/webex</string>
 		<key>NAME</key>
