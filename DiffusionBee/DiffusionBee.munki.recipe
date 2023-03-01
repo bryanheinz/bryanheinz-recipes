@@ -8,7 +8,6 @@
 	<string>com.github.bryanheinz.munki.DiffusionBee</string>
 	<key>Input</key>
 	<dict>
-		<key>NAME</key>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
