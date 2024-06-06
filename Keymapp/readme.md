@@ -1,3 +1,0 @@
-The signature verification in the Keymapp download recipe has been disabled. `codesign --verify /Applications/Keymapp.app` keeps failing with "nested code is modified or invalid". I'm assuming this has something to do with it being a cross-platform app and how it was compiled? Regardless, that's why `DISABLE_CODE_SIGNATURE_VERIFICATION:True` has been added.
-
-I've stopped work on this, though, due to their Info.plist being an invalid PLIST file. It's missing the XML header `<?xml version="1.0" encoding="UTF-8"?>` which causes AutoPkg (specifically Python's `plistlib`) to throw an error and call the file invalid. The developer would need to add that line for development of this recipe to continue. 
