@@ -19,9 +19,9 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string></string>
+			<string>Keymapp is a tool for keyboards made by ZSA Technology Labs. It allows you to view your ZSA keyboard's layout right on your screen, has handy shortcuts for configuring your keyboard, flashing a new layout, accessing our rich suite of Live Training modes online, heatmap view, smart layer switching, and more.</string>
 			<key>developer</key>
-			<string></string>
+			<string>ZSA Technology Labs, Inc.</string>
 			<key>display_name</key>
 			<string>Keymapp</string>
 			<key>name</key>
